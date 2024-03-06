@@ -457,7 +457,7 @@ img {
   content: "";
   width: 50px;
   height: 3px;
- 
+
   display: block;
   margin: 0 auto;
   margin-top: 20px;
@@ -1545,7 +1545,6 @@ section.pricing-tables {
 }
 
 .pricing-table .pricing {
- 
   padding: 20px 0;
   border-top: 1px solid #e3e3e3;
   border-bottom: 1px solid #e3e3e3;
@@ -1680,23 +1679,22 @@ div#main-nav {
   padding-left: 0;
 }
 
-.navbar .navbar-nav > li.login-btn > a {
+/* .navbar .navbar-nav > li.login-btn > a {
   background: #f6f6f6;
   color: #fe8301;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border: 2px solid #fe8301;
   border-radius: 5px;
-}
-.navbar .navbar-nav > li.login-btnn > a {
+} */
+/* .navbar .navbar-nav > li.login-btnn > a {
   background: #f6f6f6;
   color: #fe0000 !important;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border: 2px solid #fe0000;
   border-radius: 5px;
-}
-
+} */
 
 /*********** 5.2 Version 2 - Logo Top *************/
 
@@ -2899,7 +2897,7 @@ section#categories .category:hover .category-info {
 }
 
 section#categories .category:hover .category-info a {
-  color: #fe8301
+  color: #fe8301;
 }
 
 section#categories .category:hover p {
@@ -3022,7 +3020,7 @@ section#signup-video {
 /**** Signup Column ***/
 
 section#signup-video .signup-sec {
-  background:#f0f0f0 ;
+  background: #f0f0f0;
 }
 
 section#signup-video .signup-sec h2:after {
@@ -3046,7 +3044,7 @@ section#signup-video .signup-sec img.signup-icon {
 /**** Video Column ***/
 
 section#signup-video .video-sec {
- /* background: url(../images/img/image2.jpg) no-repeat; */
+  /* background: url(../images/img/image2.jpg) no-repeat; */
   background-size: cover;
   background-position: center center;
 }
@@ -3806,7 +3804,7 @@ section#partners {
 section.get-started {
   background-blend-mode: overlay;
   background: url(../images/img/get-started-bg.png) no-repeat,
-    -moz-linear-gradient(to right, #fe0000 -20%,#3c0298c1 120%);
+    -moz-linear-gradient(to right, #fe0000 -20%, #3c0298c1 120%);
   background: url(../images/img/get-started-bg.png) no-repeat,
     -webkit-linear-gradient(to right, #fe0000 -20%, #3c0298c1 120%);
   background: url(../images/img/get-started-bg.png) no-repeat,

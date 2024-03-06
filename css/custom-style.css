@@ -1,41 +1,71 @@
-.blog-post-details ol
-{
-    list-style: none; 
-    
-    color: #6a6969;
+.blog-post-details ol {
+  list-style: none;
+
+  color: #6a6969;
 }
 @keyframes blink {
-    0% {
-      opacity: 1;
-    }
-    50% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 1;
-    }
+  0% {
+    opacity: 1;
   }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 
-  .blinking {
-    animation: blink 1s infinite;
-  }
+.blinking {
+  animation: blink 1s infinite;
+}
 
-  .contact-section {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
+.contact-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
-  .contact-text {
-    font-family: 'Arial', sans-serif;
-    font-size: 24px;
-    color: #333;
-  }
+.contact-text {
+  font-family: "Arial", sans-serif;
+  font-size: 24px;
+  color: #333;
+}
 
-  .big-number {
-    font-family: 'Georgia', serif;
-    font-size: 32px;
-    color: white;
-    animation: blink 1s infinite; /* Add this line for blinking effect */
-  }
-  
+.big-number {
+  font-family: "Georgia", serif;
+  font-size: 32px;
+  color: white;
+  animation: blink 1s infinite; /* Add this line for blinking effect */
+}
+
+/* Top Navbar */
+.nav-btn-1 {
+  background-color: #fe8301;
+  border: 1px solid #fe8301;
+  /* color: #ffff; */
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+
+  border-radius: 5px;
+}
+
+.nav-btn-1 .text1 {
+  color: #ffff;
+}
+
+.nav-btn-1:hover .text1 {
+  color: #fe8301;
+}
+
+.nav-btn-2 {
+  background-color: transparent;
+  border: 1px solid #fe0000;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+
+  border-radius: 5px;
+}
+
+.nav-btn-2 .text2 {
+  color: #fe0000;
+}

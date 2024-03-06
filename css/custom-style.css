@@ -1,0 +1,41 @@
+.blog-post-details ol
+{
+    list-style: none; 
+    
+    color: #6a6969;
+}
+@keyframes blink {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  .blinking {
+    animation: blink 1s infinite;
+  }
+
+  .contact-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .contact-text {
+    font-family: 'Arial', sans-serif;
+    font-size: 24px;
+    color: #333;
+  }
+
+  .big-number {
+    font-family: 'Georgia', serif;
+    font-size: 32px;
+    color: white;
+    animation: blink 1s infinite; /* Add this line for blinking effect */
+  }
+  

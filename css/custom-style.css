@@ -1,8 +1,3 @@
-.blog-post-details ol {
-  list-style: none;
-
-  color: #6a6969;
-}
 @keyframes blink {
   0% {
     opacity: 1;
@@ -16,33 +11,42 @@
 }
 
 .blinking {
-  animation: blink 1s infinite;
+  animation: blink 2s infinite;
 }
 
-.contact-section {
+/* .contact-section {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
+} */
 
 .contact-text {
-  font-family: "Arial", sans-serif;
-  font-size: 24px;
+  font-family: "Varela Round", sans-serif;
+  font-size: 40px;
+  font-weight: bolder;
   color: #333;
 }
 
-.big-number {
-  font-family: "Georgia", serif;
-  font-size: 32px;
+.big-number h1 {
+  font-family: "Varela Round", sans-serif;
+  font-size: 40px;
+  font-weight: bolder;
   color: white;
-  animation: blink 1s infinite; /* Add this line for blinking effect */
+  letter-spacing: 5px;
+  font-style: italic;
 }
 
-/* Top Navbar */
+@media screen and (max-width: 680px) {
+  .big-number h1 {
+    font-size: 25px;
+  }
+}
+
+/* Top Navbar------------------- */
 .nav-btn-1 {
   background-color: #fe8301;
   border: 1px solid #fe8301;
-  /* color: #ffff; */
+  color: #ffff;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
 
@@ -68,4 +72,60 @@
 
 .nav-btn-2 .text2 {
   color: #fe0000;
+}
+div#main-nav ul li.login-btn1 a {
+  margin: 0 auto;
+  text-align: center;
+  margin-left: 10px;
+}
+@media (max-width: 992px) {
+  div#main-nav ul li.login-btn1 a {
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+  }
+}
+/* Post Info Section----------------------- */
+
+.post-info-section {
+  background-color: #fff !important;
+}
+
+.post-info-section > h4 {
+  color: rgba(0, 0, 0, 0.55);
+  font-weight: bold;
+}
+
+.post-info-section > h4:hover {
+  color: #fe8301;
+}
+
+.post-info-list {
+  list-style: none;
+  padding-top: 20px;
+  text-align: left;
+}
+
+.post-info-list i {
+  color: rgba(0, 0, 0, 0.55);
+}
+.post-info-text {
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.55);
+  font-weight: bold;
+  padding-left: 10px;
+}
+
+/* category section */
+
+.tag-hidden {
+  display: none;
+}
+
+.btn-less {
+  display: none;
+}
+
+.btn-more {
+  display: inline-block;
 }

@@ -190,7 +190,7 @@ body.boxed {
 
 section {
   position: relative;
-  background: #fff;
+  background: #f0f0f0;
 }
 
 a {
@@ -448,7 +448,7 @@ img {
 
 .section-title {
   text-align: center;
-  /* padding-bottom: 60px; */
+  padding-bottom: 60px;
   margin: 0;
   text-transform: capitalize;
 }
@@ -457,7 +457,7 @@ img {
   content: "";
   width: 50px;
   height: 3px;
-
+  background: #fe8301;
   display: block;
   margin: 0 auto;
   margin-top: 20px;
@@ -1019,6 +1019,21 @@ ul.list {
 
 .btn-orange:hover {
   background: #ecaf4f;
+}
+.btn-outline-orange {
+  background: transparent;
+  border: solid 1px #e69d29;
+}
+.btn-outline-orange:hover {
+  background: transparent;
+  border: solid 1px red;
+}
+
+.btn-outline-orange span {
+  color: #e69d29;
+}
+.btn-outline-orange:hover span {
+  color: red;
 }
 
 .btn-red {
@@ -2232,7 +2247,7 @@ footer {
 
 footer .footer-info {
   position: relative;
-  background: url(../images/img/footer-bg.jpg) no-repeat;
+  background: url(../images/banner/banner1.jpg) no-repeat;
   background-size: cover;
 }
 
@@ -3564,7 +3579,7 @@ section#latest-news .blog-post .post-info a {
 }
 
 section#latest-news .blog-post .post-info a:hover {
-  color: #29b1fd;
+  color: #fe8301;
 }
 
 section#latest-news .blog-post .post-info .post-details {
@@ -5761,9 +5776,6 @@ section#version2.blog-listing article.blog-post .blog-desc {
 
 /* Trending Tags */
 
-.blog-sidebar .tag-wrapper {
-}
-
 .blog-sidebar .tag-wrapper a {
   color: #999;
   font-size: 16px;
@@ -5782,6 +5794,10 @@ section#version2.blog-listing article.blog-post .blog-desc {
 
 .blog-sidebar .tag-wrapper a:hover {
   background-color: #29b2fe;
+  color: #fff;
+}
+.blog-sidebar .tag-wrapper a:hover {
+  background-color: #fe8301;
   color: #fff;
 }
 

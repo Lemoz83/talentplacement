@@ -1065,7 +1065,7 @@ ul.list {
   line-height: 45px;
   background: -moz-linear-gradient(left, #29b2fe -30%, #443088 130%);
   background: -webkit-linear-gradient(left, #29b2fe -30%, #443088 130%);
-  background: linear-gradient(to right, #29b2fe -30%, #443088 130%);
+  background: linear-gradient(to right, #fe8301 -30%, #fe0000 130%);
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
@@ -1229,13 +1229,13 @@ ul.list {
   background: #3b5998;
 }
 
-.social-btn-roll.twitter {
-  border-color: #4cc4f2;
-  color: #4cc4f2;
+.social-btn-roll.wapp {
+  border-color: #036a19;
+  color: #036a19;
 }
 
-.social-btn-roll.twitter:hover {
-  background: #4cc4f2;
+.social-btn-roll.wapp:hover {
+  background: #036a19;
 }
 
 .social-btn-roll.google-plus {
@@ -1827,7 +1827,7 @@ header.sticky {
 #main-nav .navbar-nav .dropdown-menu > li > a:focus,
 #main-nav .navbar-nav .dropdown-menu > li > a:hover {
   background: none;
-  color: #29b1df;
+  color: #fe8301;
 }
 
 #main-nav .navbar-nav .dropdown-menu > li > a i {

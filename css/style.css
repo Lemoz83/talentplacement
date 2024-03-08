@@ -2039,7 +2039,7 @@ header.sticky {
   height: 50px;
   line-height: 50px;
   font-weight: 600;
-  background: #29b2fe;
+  background: #fe8301;
   color: #fff;
   font-size: 18px;
   text-transform: uppercase;
@@ -2052,7 +2052,7 @@ header.sticky {
 }
 
 .cd-user-modal-container .cd-switcher a:hover {
-  background: #443088;
+  background: #ffde00;
 }
 
 .cd-user-modal-container .cd-switcher a.selected {

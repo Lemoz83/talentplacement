@@ -1,5 +1,11 @@
 /* Topnav---------- */
 
+@media screen and (max-width: 992px) {
+  .topnav {
+    display: none;
+  }
+}
+
 .topnav-contacts a:hover {
   color: #fe8301;
 }
@@ -114,9 +120,9 @@
   border-radius: 5px;
 }
 
-.nav-btn-1 .text1 {
+/* .nav-btn-1 .text1 {
   color: #ffff;
-}
+} */
 
 .nav-btn-1:hover .text1 {
   color: #fe8301;

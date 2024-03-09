@@ -194,7 +194,7 @@ section {
 }
 
 a {
-  color: white;
+  color: #29b2fe;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
   -ms-transition: all 0.3s ease;
@@ -486,7 +486,7 @@ ul.list {
   display: block;
   width: 8px;
   height: 8px;
-  background: #29b1fd;
+  background: #fe8301;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
@@ -1535,7 +1535,7 @@ section.pricing-tables {
 }
 
 #popular.pricing-table:before {
-  content: "\f005";
+  /* content: "\f005"; */
   font-family: "fontawesome";
   width: 50px;
   height: 50px;
@@ -2323,7 +2323,7 @@ footer .footer-info .footer-links a {
 }
 
 footer .footer-info .footer-links a:hover {
-  color: #29b1fd;
+  color: #fe8301;
   padding-left: 10px;
 }
 
@@ -3265,8 +3265,8 @@ ul.pagination {
 ul.pagination li a {
   font-size: 16px;
   color: #f6f6f6;
-  background: #29b1fd;
-  border: 2px solid #29b1fd;
+  background: #fe8301;
+  border: 2px solid #fe8301;
   padding: 7px 14px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -3277,21 +3277,21 @@ ul.pagination li a {
 ul.pagination li a:hover,
 ul.pagination li a:focus {
   background: none;
-  color: #29b1fd;
-  border-color: #29b1fd;
+  color: #fe8301;
+  border-color: #fe8301;
 }
 
 ul.pagination li.active a {
   background: none;
-  border: 2px solid #29b1fd;
-  color: #29b1fd;
+  border: 2px solid #fe8301;
+  color: #fe8301;
 }
 
 ul.pagination li.active a:hover,
 ul.pagination li.active a:focus {
   background: none;
-  color: #29b1fd;
-  border-color: #29b1fd;
+  color: #fe8301;
+  border-color: #fe8301;
 }
 
 /* Golden Jobs Sidebar */
@@ -3372,7 +3372,7 @@ section#countup h4 {
 /********************** 7.6 Testimonial Section ************************/
 
 section#testimonials {
-  background: url(../images/img/testimonial-bg.jpg) no-repeat;
+  background: url(../images/img/testimonial-bg2.jpg) no-repeat;
   background-size: cover;
 }
 
@@ -3434,7 +3434,7 @@ section#testimonials .section-title h2:after {
   height: 50px;
   top: -25px;
   left: 25px;
-  background: #29b1fd;
+  background: #fe8301;
   border: 2px solid #fff;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -3819,11 +3819,11 @@ section#partners {
 section.get-started {
   background-blend-mode: overlay;
   background: url(../images/img/get-started-bg.png) no-repeat,
-    -moz-linear-gradient(to right, #fe0000 -20%, #3c0298c1 120%);
+    -moz-linear-gradient(to right, #fe0000a9 -20%, #ffdd007e 120%);
   background: url(../images/img/get-started-bg.png) no-repeat,
-    -webkit-linear-gradient(to right, #fe0000 -20%, #3c0298c1 120%);
+    -webkit-linear-gradient(to right, #fe0000a9 -20%, #ffdd007e 120%);
   background: url(../images/img/get-started-bg.png) no-repeat,
-    linear-gradient(to right, #fe0000 -20%, #3c0298c1 120%);
+    linear-gradient(to right, #fe0000a9 -20%, #ffdd007e 120%);
   background-position: center center;
   background-size: cover;
 }
@@ -4120,8 +4120,9 @@ form.post-job-resume .mce-panel {
 form.post-job-resume .upload-file-btn {
   position: relative;
   overflow: hidden;
-  background: #29b1fd;
-  color: #f6f6f6;
+  background: transparent;
+  border: 2px solid #fe8301;
+  color: #fe8301;
   padding: 10px 20px;
   font-size: 14px;
   font-weight: 700;
@@ -5397,7 +5398,7 @@ section#login .login-box .login-title {
   padding: 20px 30px;
   text-align: center;
   text-transform: uppercase;
-  background: #29b1fd;
+  background: #fe8301;
   color: #f6f6f6;
   -webkit-border-radius: 10px 10px 0 0;
   -moz-border-radius: 10px 10px 0 0;
@@ -5413,7 +5414,7 @@ section#login .login-box .login-title:before {
   border-radius: 10px;
   position: absolute;
   top: -10px;
-  background: #29b1fd;
+  background: #fe8301;
   left: 0;
   -webkit-transform: scale(0.95);
   -moz-transform: scale(0.95);
@@ -5452,12 +5453,12 @@ section#register .nav-tabs > li {
 
 section#register .nav-tabs > li.active > a {
   color: #333;
-  border-top: 3px solid #29b2fe;
+  border-top: 3px solid #fe8301;
 }
 
 section#register .nav-tabs > li.active > a:hover {
   background: #fff;
-  border-top: 3px solid #29b2fe;
+  border-top: 3px solid #ffde00;
   border-right: 1px solid #e3e3e3;
   border-bottom: 1px solid #fff;
   border-left: 1px solid #e3e3e3;

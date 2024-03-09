@@ -5,7 +5,9 @@
     display: none;
   }
 }
-
+.topnav-contacts a {
+  color: #fff;
+}
 .topnav-contacts a:hover {
   color: #fe8301;
 }
@@ -93,6 +95,9 @@
   font-weight: bolder;
   color: #333;
 }
+/* .rotated-text {
+  transform: rotate(-1deg);
+} */
 
 .big-number h1 {
   font-family: "Varela Round", sans-serif;
@@ -175,6 +180,8 @@ div#main-nav ul li.login-btn1 a {
 
 .post-info-list i {
   color: rgba(0, 0, 0, 0.55);
+  font-size: 18px;
+  font-weight: bold;
 }
 .post-info-text {
   font-size: 18px;

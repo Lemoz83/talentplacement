@@ -38,4 +38,84 @@
     color: white;
     animation: blink 1s infinite; /* Add this line for blinking effect */
   }
+  section.page-header1{
+    position: relative;
+    background: url(../images/img/page-header.jpg) no-repeat;
+    background-position: center center;
+    background-size: cover;
+    text-align: center;
+    padding: 40px 0;
+    margin: 0;
+    border: 0;
+    color: #f6f6f6;
+  }
+section.page-header1:before {
+    background: orange;
+    width: 100%;
+    
+    display: block;
+    content: "";
+    overflow: hidden;
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.breadcrumb1{
+padding: 8px 15px;
+    margin-bottom: 20px;
+    list-style: none;
+    background: color #fe8301;
+    border-radius: 4px;
+}
+section.page-header1 h2 {
+  text-transform: uppercase;
+}
+
+.blog-masonry .blog-single1{
+  background-color: white;
+  padding: 130px 0 100px;
+}
+.element1.style {
+  position: absolute;
+  left: 389px;
+  top: 0px;
+}
+.blog-masonry .element1 {
+  margin-bottom: 40px;
+}
+.icon{
+  color: #818589 ;
+  transform: scaleX(-1);
+  font-size: 50px; 
   
+}
+.icon:hover {
+  color: #ffa500; /* Change the color to your desired hover color */
+  cursor: pointer;
+}
+.title1{
+  font-size: 25px;
+ padding: 20px;
+  text-transform: capitalize;
+  color: #818589;
+  font-weight: 600;
+  font-family: inherit;
+}
+
+
+.blog-masonry .blog-post-title1 h3 > a:hover {
+    color: #ffa500;
+  }
+  .blog-masonry .blog-post-title1 {
+    margin: 0 25px;
+    border-bottom: 1px solid #eee;
+}
+
+.blog-masonry .blog-post-title1 h3 > a {
+    font-size: 18px;
+    text-transform: capitalize;
+    color: #333;
+    font-weight: 600;
+    font-family: inherit;
+}

@@ -2234,7 +2234,7 @@ footer {
 
 footer .footer-info {
   position: relative;
-  background: url(../images/img/footer-bg.jpg) no-repeat;
+  /* background: url(../images/img/footer-bg.jpg) no-repeat; */
   background-size: cover;
 }
 

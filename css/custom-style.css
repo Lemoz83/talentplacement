@@ -129,7 +129,8 @@
   color: #ffff;
 } */
 
-.nav-btn-1:hover .text1 {
+.nav-btn-1:hover {
+  background-color: transparent;
   color: #fe8301;
 }
 
